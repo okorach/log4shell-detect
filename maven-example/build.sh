@@ -1,2 +1,2 @@
-mvn clean verify sonar:sonar -Dlicense.skip=true $*
+mvn clean verify sonar:sonar org.owasp:dependency-check-maven:check -Dlicense.skip=true $*
 
